@@ -1,0 +1,159 @@
+/* Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  padding: 30px 0;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.secao-sinopse,
+.secao-disp,
+.secao-temp,
+.secao-img,
+#imagens p,
+.secao-rodape {
+  width: calc(100% - 800px);
+  margin: auto;
+  max-width: 900px;
+  min-width: 400px;
+}
+
+#disponibilidade,
+#imagens,
+#rodape {
+  background-color: #2e1f38;
+}
+
+/* Topo */
+
+.topo {
+  background-color: black;
+  border-bottom: 2px solid #111;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.topo li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.topo a {
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  font-size: 18px;
+}
+
+.topo a:hover {
+  color: #555;
+}
+.capa {
+  background-image: url("img/capa.jpg");
+  background-size: cover;
+  background-position: 10% 10%;
+  background-repeat: no-repeat;
+  height: calc(100vh - 44px);
+}
+
+.view {
+  height: 100vh;
+}
+
+/* Sinopse */
+
+#sinopse p {
+  margin-bottom: 40px;
+}
+
+#disponibilidade h2,
+#disponibilidade p {
+  color: white;
+}
+
+#disponibilidade img {
+  width: 30%;
+  box-shadow: 0 0 10px 5px white;
+  text-align: center;
+}
+
+#disponibilidade p {
+  padding: 30px 0;
+}
+
+/* Temporadas */
+
+.secao-temp div {
+  border: 1px solid #e8e5e5;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px 5px #e8e5e5;
+  border-radius: 10px;
+  min-height: 100px;
+}
+
+#temporadas h3 {
+  text-align: left;
+}
+
+#temporadas p {
+  font-size: 16px;
+}
+
+/* Imagens */
+
+#imagens h2,
+#imagens p {
+  color: white;
+}
+
+#imagens div {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+#imagens img {
+  height: 180px;
+  box-shadow: 0 0 10px 5px white;
+  margin: 10px;
+}
+
+#imagens p {
+  padding: 20px 0;
+}
+
+/* Rodapé */
+#rodape {
+  padding: 20px 0;
+  box-shadow: 0 0 10px 1px white;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
